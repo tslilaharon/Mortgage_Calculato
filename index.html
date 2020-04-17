@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Calculator</title>
+</head>
+
+<body>
+
+    <div class="title">
+        <p>Mortgage Calculator</p>
+    </div>
+
+    <div class="input">
+        <input type="text" id=FundAmount placeholder="Enter a keren">
+
+    </div>
+
+    <p id="ErrorFundAmount"></p>
+    <div class="input">
+        <input type="text" id=Interest value="3.5">
+
+    </div>
+
+    <p id="ErrorInterest"></p>
+    <div class="input">
+        <input type="text" id=Years placeholder="Enter a Years">
+
+    </div>
+    <p id="ErrorYears"></p>
+
+
+    <div class="input">
+        <input type="text" id=payment placeholder="Enter a payment">
+
+    </div>
+    <p id="Errorpayment"></p>
+
+    <div class="button">
+        <button id="btn" onclick="calc()">
+            Calculate a mortgage
+        </button>
+
+
+
+    </div>
+
+<div id = "result"></div>
+<div id = "isok"></div>
+
+    <script src="script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
